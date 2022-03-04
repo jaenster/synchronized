@@ -1,0 +1,43 @@
+{
+  "name": "@jaenster/synchronized",
+  "version": "0.1.0",
+  "description": "decorator that runs async methods synchronized",
+  "main": "bin/index.js",
+  "types": "bin/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "/bin"
+  ],
+  "keywords": [
+    "decorator",
+    "sync",
+    "synchronize",
+    "synchronized",
+    "asynchronize",
+    "async",
+    "typescript",
+    "stand-alone",
+    "multiplatform"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaenster/synchronized.git"
+  },
+  "author": "Jaenster",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": ["ts", "tsx", "js"]
+  }
+}
