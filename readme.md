@@ -1,6 +1,8 @@
 # Synchronize
 
-`npm i @jaenster/synchronize` or `yarn add @jaenster/synchronize`
+- npm; `npm install @jaenster/synchronized`
+- yarn; `yarn add @jaenster/synchronized`
+- deno; `import {Synchronized} from 'https://github.com/jaenster/synchronized/raw/master/src/index.ts'`
 
 ## Problem
 Ever had an async method that should not run twice at the same time?
